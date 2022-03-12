@@ -83,7 +83,6 @@ while getopts ":h:d:i:a:g" option; do
          GEOIP=true
          #echo "-g $IP"
          ;;
-
      \?) # Invalid option
          echo "Error: Invalid option"
          exit;;
